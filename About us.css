@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background-color:  rgb(128, 202, 128);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+body{
+    overflow-x: hidden;
+    
+}
+.logo{
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+.navbar a {
+    position: relative;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 30px;
+    justify-content: center;
+}
+.navbar a::before{
+content: "";
+position: absolute;
+top: 100%;
+left: 10px;
+width: 0%;
+height: 2px;
+background:white;
+}
+.navbar a:hover::before{
+width: 100%;
+}
+ .navbar button{
+    border-radius: 20px;
+    margin-left: 60px;
+    background-color: chocolate;
+    height: 40px;
+    padding-right: 10px;
+}
+.first{
+    position: relative;
+    background-color: rgb(95, 97, 218);
+    height: 490px;
+    width: 890px;
+    margin-left: 230px;
+    margin-top: 5px;
+}
+.first h1{
+    text-align: center;
+}
+.first p{
+    text-align: center;
+    margin-top: 5px;
+}
+.first img{
+    margin-left: 35%;
+}
+.cont{
+    position: relative;
+    height: 300px;
+    width: 400px;
+    background-color: rgb(222, 240, 240);
+    margin-left: 50%;
+    margin-top: 15px;
+}
+.cont img{
+    margin-top: 210px;
+    margin-left: 40px;
+}
+.cont p{
+    position: absolute;
+    top: 90px;
+    margin-left: 30px;
+}
+.cont h1{
+    position: absolute;
+    top: 50px;
+    margin-left: 30px;
+}
+.cont button{
+    position: absolute;
+    top: 20px;
+    width: 50px;
+    height: 30px;
+    margin-left: -90px;
+    top: 10px;
+    background-color: rgb(40, 43, 221);
+    border: none;
+    color: white;
+    font-size: x-large;
+}
+.cont2 {
+    position: absolute;
+    margin-left: 20%;
+    top: 590px;
+    background-color:rgb(222, 240, 240);
+    height:300px;
+}
+.cont2 button{
+    position: absolute;
+    top: 9px;
+    width: 50px;
+    height: 30px;
+    margin-left: 10px;
+    background-color: rgb(40, 43, 221);
+    border: none;
+    color: white;
+    font-size: x-large;
+}
+.cont2 p{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.cont2 h1{
+    
+    margin-top: 50px;
+    margin-left: 25px;
+}
+.support{
+    position: relative;
+    margin-left: 51%;
+    margin-top: 20px;
+    background-color:rgb(222, 240, 240);
+    width: 400px;
+    height: 260px;
+}
+.support h6{
+    color:  rgb(40, 43, 221);
+    margin-left: 30px;
+}
+.support h1{
+    margin-left: 20px;
+}
+.lorem{
+    position: absolute;
+    margin-left: 20%;
+    top: 910px;
+    background-color:rgb(80, 80, 226) ;
+}
+.tried h2{
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 20px;
+}
+.tried h3{
+    display: inline-block;
+    margin: 20px 0px 0 240px;
+    gap: 5px;
+    color: rgb(49, 49, 49);
+    margin-top: 60px;
+}
+.tried p{
+    position: relative;
+    margin-left: 30px;
+}
+.phone{
+    position: relative;
+    margin-left: 70%;
+    margin-top: 15px;
+}
+.put{
+    position: absolute;
+    margin-left: 45%;
+    margin-top: -7%;
+}
+.putt{
+    position: absolute;
+    margin-left: 20%;
+    margin-top: -7%;
+}
+.last span{
+    position: absolute;
+    left: 70%;
+}
+.too{
+    border-radius: 20px;
+    height: 30px;
+    width: 160px;
+    margin-top: 15px
+}
+.woo{
+    border-radius: 20px;
+    height: 30px;
+    width: 40px;
+    margin-top: 15px
+}
+.policy{
+    position: absolute;
+    left: 40%;
+}
+.push{
+    position: absolute;
+    left: 30%;
+}
+.face a{
+    display: flex;
+}
+.face{
+    margin-left: 10%;
+}
+.you{
+    margin-top: 20px;
+}
+.last p{
+    color: white;
+}
+.last{
+    position: relative;
+    background-color: rgb(20, 20, 20);
+    margin-top: 0px;
+    height: 100px;
+    top: 30px;
+}

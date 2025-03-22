@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background-color:  rgb(128, 202, 128);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+body{
+    overflow-x: hidden;
+    
+}
+.logo{
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+.navbar a {
+    position: relative;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 30px;
+    justify-content: center;
+}
+.navbar a::before{
+content: "";
+position: absolute;
+top: 100%;
+left: 10px;
+width: 0%;
+height: 2px;
+background:white;
+}
+.navbar a:hover::before{
+width: 100%;
+}
+ .navbar button{
+    border-radius: 20px;
+    margin-left: 60px;
+    background-color: chocolate;
+    height: 40px;
+    padding-right: 10px;
+}
+.welcome{
+    position: relative;
+    background-color: rgb(205, 245, 205);
+    height: 370px;
+}
+.welcome h1 {
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 20px;
+}
+.welcome p{
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 80px;
+    color: rgb(58, 11, 11);
+}
+.welcome button{
+    position: absolute;
+    margin-left: 50%;
+    top: 240px;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: rgb(180, 236, 123);
+    color: white;
+}
+.welcome button:hover{
+    background-color: rgb(147, 214, 214);
+    transition-duration: 1ms;
+}
+.welcome img{
+    margin-left: 50px;
+}
+.ladies h1{
+    position: absolute;
+    margin-left: 80%;
+    margin-top: 20px;
+    color: rgb(58, 54, 54);
+}
+.ladies button{
+    position: absolute;
+    margin-left: 80%;
+   margin-top: 70px;
+   width: 80px;
+   height: 30px;
+   border-radius: 40px;
+  background-color:rgb(102, 173, 102);
+ color: white;
+}
+.ladies button:hover{
+    cursor: pointer;
+    background-color: chocolate;
+}
+.ladies img{
+    margin-left: 70%;
+}
+.easy h1{
+    position: absolute;
+    margin-left: 45%;
+    top: 470px;
+    color: rgb(58, 54, 54);
+}
+.easy button{
+    position: absolute;
+    margin-left: 45%;
+    top: 515px;
+    width: 80px;
+   height: 30px;
+   border-radius: 40px;
+  background-color:rgb(102, 173, 102);
+ color: white;
+}
+.easy button:hover{
+    cursor: pointer;
+    background-color: chocolate;
+}
+.easy img{
+    position: absolute;
+    top: 440px;
+    margin-left: 35%;
+}
+.shoe h1{
+    position: absolute;
+    margin-left: 15%;
+    top: 470px;
+    color: rgb(58, 54, 54);
+}
+.shoe button{
+    position: absolute;
+    margin-left: 15%;
+    top: 520px;
+    width: 80px;
+   height: 30px;
+   border-radius: 40px;
+  background-color:rgb(102, 173, 102);
+ color: white;
+}
+.shoe button:hover{
+    cursor: pointer;
+    background-color: chocolate;
+}
+.shoe img{
+    position: absolute;
+    top: 430px;
+    margin-left: 5%;
+}
+.feature{
+    position: absolute;
+    background-color: rgb(205, 245, 205);
+    height: 100px;
+    width: 1460px;
+}
+.feature button{
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 20px;
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    border: none;
+    color: rgb(51, 49, 49);
+    background-color:rgb(248, 247, 245) ;
+    font-size: 20px;
+}
+.brand{
+    position:absolute;
+    margin-left: 75%;
+    width: 300px;
+    height: 260px;
+    background-color: blanchedalmond;
+    clip-path: circle(100%);
+    top: 700px;
+}
+.brand img{
+    margin: 0 0 0 60px;
+
+}
+.brand h1{
+    margin: 7px 0 0 60px;
+    color: rgb(56, 54, 54);
+}
+.brand button{
+    margin: 0 0 0 60px;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    background-color:rgb(102, 173, 102);
+    cursor: pointer;
+}
+.indulge{
+    position:absolute;
+    margin-left: 40%;
+    width: 300px;
+    height: 260px;
+    background-color: blanchedalmond;
+    clip-path: circle(100%);
+    top: 700px;
+}
+.indulge img{
+    margin: 15px 0 0 120px;
+}
+.indulge h1{
+    margin: 0 0 0 70px;
+    margin-top: -17px;
+    color: rgb(56, 54, 54);
+}
+.indulge button{
+    margin: 0 0 0 60px;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    background-color:rgb(102, 173, 102);
+    cursor: pointer;
+}
+.sun{
+    position:absolute;
+    margin-left: 5%;
+    width: 300px;
+    height: 260px;
+    background-color: blanchedalmond;
+    clip-path: circle(100%);
+    top: 700px;
+}
+.sun img{
+    margin: 0 0 0 90px;
+}
+.sun h1{
+    margin: -6px 0 0 70px;
+    color: rgb(56, 54, 54);
+}
+.sun button{
+    margin: 0px 0 0 25px;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    background-color:rgb(102, 173, 102);
+    cursor: pointer;
+}
+.last span{
+    position: absolute;
+    left: 70%;
+}
+.too{
+    border-radius: 20px;
+    height: 30px;
+    width: 160px;
+    margin-top: 15px
+}
+.woo{
+    border-radius: 20px;
+    height: 30px;
+    width: 40px;
+    margin-top: 15px
+}
+.policy{
+    position: absolute;
+    left: 40%;
+}
+.push{
+    position: absolute;
+    left: 30%;
+}
+.face a{
+    display: flex;
+}
+.face{
+    margin-left: 10%;
+}
+.you{
+    margin-top: 20px;
+}
+.last p{
+    color: white;
+}
+.last{
+    position: relative;
+    background-color: rgb(20, 20, 20);
+    margin-top: 0px;
+    height: 100px;
+    top: 390px;
+}

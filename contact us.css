@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background-color: rgb(179, 189, 90);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+body{
+    overflow-x: hidden;
+    
+}
+.logo{
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+.navbar a {
+    position: relative;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 30px;
+    justify-content: center;
+}
+.navbar a::before{
+content: "";
+position: absolute;
+top: 100%;
+left: 10px;
+width: 0%;
+height: 2px;
+background:white;
+}
+.navbar a:hover::before{
+width: 100%;
+}
+ .navbar button{
+    border-radius: 20px;
+    margin-left: 60px;
+    background-color: chocolate;
+    height: 40px;
+    padding-right: 10px;
+}
+.back{
+    height: 20px;
+    width: 30px;
+}
+.text{
+     text-align: center;
+     margin-top: 30px;
+}
+.left{
+    margin-right: 50px;
+    text-align: right;
+    margin-top: 80px;
+}
+.left h1{
+    margin: 20px;
+    color: rgb(49, 47, 47);
+}
+.left p{
+    margin: 20px;
+}
+.left h6{
+    margin: 20px;
+    font-size: 15px;
+    color: rgb(53, 50, 50);
+}
+.under{
+    position: absolute;
+    left: 40%;
+    top: 300px;
+}
+.under hr{
+    width: 190%;
+    justify-content: space-between;
+}
+.under p{
+    margin: 10px;
+}
+.border p{
+    position: relative;
+    border: 1px solid black;
+    font-size: 20px;
+    padding: 0px 0 70px 5px;
+    width: 23%;
+    height: 50%;
+    margin-left: 40%;
+}
+.how{
+    position: absolute;
+    margin-left: 40px;
+    top: 320px;
+    justify-content: space-between;
+}
+.how p{
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.how:hover{
+    cursor: pointer;
+}
+.one{
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.one p{
+    margin-top: 20px;
+}
+.one h3{
+    margin-top: 20px;
+}
+.two{
+    border:1px solid black ;
+}
+.box{
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 50px;
+    border:1px solid black ;
+    width: 20%;
+    height: 15%;
+
+}
+.box input{
+    margin: 10px;
+}
+.box img p{
+   padding: 20px;
+}
+.done{
+    position: absolute;
+    margin-left: 40%;
+    top: 59em;
+    width: 90px;
+    height: 40px;
+    background-color: rgb(250, 222, 222);
+}
+.last{
+    position: absolute;
+    top:55em;
+    text-align: center;
+    background-color: rgb(235, 215, 215);
+    color:black;
+    width: 100%;
+}
+.last button{
+    margin-top: 10px;
+    height: 40px;
+    width: 90px;
+    border-radius: 10px;
+    background-color: rgb(203, 231, 138);
+    box-shadow: 10%;
+}

@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background-color:  rgb(149, 53, 168);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+body{
+    overflow-x: hidden;
+    background-color: lightgrey;
+}
+.logo{
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+.navbar a {
+    position: relative;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 30px;
+    justify-content: center;
+}
+.navbar a::before{
+content: "";
+position: absolute;
+top: 100%;
+left: 10px;
+width: 0%;
+height: 2px;
+background:white;
+}
+.navbar a:hover::before{
+width: 100%;
+}
+ .navbar button{
+    border-radius: 20px;
+    margin-left: 60px;
+    background-color: chocolate;
+    height: 40px;
+    padding-right: 10px;
+}
+img{
+    position: relative;
+    display: block;
+    margin-left: 70%;
+}
+.thank{
+    position: absolute;
+    margin-left: 100px;
+    top: 90px;
+    font-size: 40px;
+    background-color: rgb(211, 63, 216);
+    width: 40%;
+    border-radius: 10px;
+   
+}
+.FOR{
+    position: absolute;
+    top: 300px;
+    margin-left: 100px;
+    font-size: 30px;
+    justify-content: space-between;
+    color:rgb(211, 63, 216) ;
+}
+.hope{
+    position: absolute;
+    top: 340px;
+    margin-left: 100px;
+    background-color: gray;
+    width: 40%;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.last span{
+    position: absolute;
+    left: 70%;
+}
+.too{
+    border-radius: 20px;
+    height: 30px;
+    width: 160px;
+    margin-left: -100%;
+    margin-top: 15px
+}
+.woo{
+    border-radius: 20px;
+    height: 30px;
+    width: 40px;
+    margin-top: 15px
+}
+.policy{
+    position: absolute;
+    left: 40%;
+}
+.push{
+    position: absolute;
+    left: 30%;
+}
+.face a{
+    display: flex;
+}
+.face{
+    margin-left: 10%;
+}
+.you{
+    margin-top: 20px;
+}
+.last p{
+    color: white;
+}
+.last{
+    position: relative;
+    background-color: rgb(20, 20, 20);
+    margin-top: 0px;
+    height: 130px;
+    top: 30px;
+}
